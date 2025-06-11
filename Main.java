@@ -16,7 +16,7 @@ public class Main {
         
         Device.Configuration obj1 = new Device.Configuration();
         // Karena Configuration adalah static inner class, bisa dibuat langsung lewat nama outer class
-        // Device.Configuraion obj1 = obj.new Configuration();  ini kalau B non static
+        // Device.Configuraion obj1 = obj.new Configuration();  ini kalau Configuration non static
         obj1.setup();
     }
     
